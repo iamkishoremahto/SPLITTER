@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .tip {
+    @apply bg-Verydarkcyan cursor-pointer w-[150px] md:w-[120px] h-[50px] flex items-center justify-center font-spaceMono text-White font-[600] rounded-xl text-2xl;
+  }
+  .tipCustme{
+      @apply bg-Verylightgrayishcyan text-Darkgrayishcyan
+  }
+
+  .input{
+    @apply ps-[50px] text-right text-Verydarkcyan font-bold w-[100%] focus:outline-2 focus:outline-activeColor rounded-md border-none outline-none font-spaceMono bg-Verylightgrayishcyan p-2
+  }
+  .labelText{
+    @apply w-full font-spaceMono text-2xl text-Darkgrayishcyan text-right
+  }
+
+  .active{
+    @apply bg-activeColor
+  }
+
+  .wrong{
+    border:2px solid red;
+    outline: none;
+  }
+
+  
+
+  
+}
+
+
+
+$StrongCyan: hsl(172, 67%, 45%);
+$Verydarkcyan: hsl(183, 100%, 15%);
+$Darkgrayishcyan: hsl(186, 14%, 43%);
+$Grayishcyan: hsl(184, 14%, 56%);
+$Lightgrayishcyan: hsl(185, 41%, 84%);
+$Verylightgrayishcyan: hsl(189, 41%, 97%);
+$White: hsl(0, 0%, 100%);
+$activeColor: #9fe8df;
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Optional */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
