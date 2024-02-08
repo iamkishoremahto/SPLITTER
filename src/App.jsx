@@ -159,7 +159,7 @@ function App() {
               </div>
 
               <div className="buttonWrapper w-full flex items-center justify-center">
-                <button onClick={resetHandler} className='uppercase transition duration-200 ease-in-out bg-StrongCyan h-[50px] w-[85%] hover:bg-activeColor rounded-lg text-Verydarkcyan text-[20px] font-bold '>reset</button>
+                <button onClick={resetHandler} className={`uppercase transition duration-200 ease-in-out ${splitAmount>0?'bg-StrongCyan':'bg-inactiveGreen'} h-[50px] w-[85%] hover:bg-activeColor rounded-lg text-Verydarkcyan text-[20px] font-bold `}>reset</button>
               </div>
 
 
