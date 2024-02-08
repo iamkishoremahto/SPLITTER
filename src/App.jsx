@@ -92,7 +92,7 @@ function App() {
   return (
     <>
       <div className="mainWrapper flex flex-col items-center gap-3 justify-center bg-Lightgrayishcyan min-h-screen w-screen">
-        <h1 className='text-4xl font-spaceMono text-Darkgrayishcyan text-center'>SPLI<br />TTER</h1>
+        <h1 className='text-2xl tracking-[10px] font-bold font-spaceMono text-Darkgrayishcyan text-center'>SPLI<br />TTER</h1>
         <div className="flex flex-col md:flex-row splitterWrapper md:min-h-[550px] min-h-[800px] min-w-[375px]  rounded-t-[35px] md:rounded-[35px] bg-White lg:w-[1000px]">
           <div className="calculation p-7 items-center gap-11 justify-center flex flex-col md:w-[50%]">
             <div className="bill ">
